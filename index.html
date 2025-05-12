@@ -17,6 +17,7 @@
         <nav>
           <a href="index.html" class="nav-link">Home</a>
           <a href="about.html" class="nav-link">About</a>
+          <a href="projects.html" class="nav-link">Projects</a>
         </nav>
       </div>
     </header>
@@ -36,8 +37,25 @@
           <input type="text" id="name" placeholder="Your name..." required />
           <button type="submit">Send</button>
         </form>
+        <section class="projects">
+          <h3>My Projects</h3>
+          <div class="project-card">
+            <h4>Portfolio Website</h4>
+            <p>A personal website built using HTML, CSS, and JavaScript.</p>
+          </div>
+          <div class="project-card">
+            <h4>Blog Template</h4>
+            <p>Responsive blog layout using Flexbox and Grid.</p>
+          </div>
+        </section>
       </section>
     </main>
+    <div id="success-modal" class="modal">
+      <div class="modal-content">
+        <span id="close-modal" class="close">&times;</span>
+        <p id="modal-message"></p>
+      </div>
+    </div>
 
     <footer>
       <p>&copy; 2025 Eda's Portfolio • All rights reserved</p>

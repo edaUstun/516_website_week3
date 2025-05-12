@@ -13,6 +13,28 @@ body {
   margin: auto;
 }
 
+header {
+  border-bottom: 4px solid #ffd700;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.form-section {
+  margin-top: 3rem;
+  padding: 2.5rem;
+  border: 2px solid #e0e0e0;
+}
+
+input[type="text"] {
+  margin-bottom: 1.2rem;
+  padding: 1.1rem;
+  border: 2px solid #ddd;
+}
+
+button {
+  padding: 1rem 2rem;
+}
+
+
 /* Header */
 header {
   background: linear-gradient(135deg, #5c258d, #4389a2); /* Mor-Mavi degrade */
@@ -145,4 +167,43 @@ footer {
     display: block;
     margin: 0.5rem 0;
   }
+}
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: auto;
+  padding: 2rem;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
 }
